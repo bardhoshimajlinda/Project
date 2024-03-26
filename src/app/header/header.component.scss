@@ -1,0 +1,30 @@
+nav {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Arial Narrow";
+
+  ul {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 100px;
+    margin: 30px;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+
+      a {
+        color: #593131;
+        text-decoration: none;
+
+        &:hover {
+          color: #d21b1b;
+        }
+      }
+
+      &.active a {
+        color: #d21b1b;
+      }
+    }
+  }
+}
