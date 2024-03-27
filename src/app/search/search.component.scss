@@ -1,0 +1,35 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-container {
+  position: relative;
+}
+
+input[type="text"] {
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-right: 10px;
+  background-color: rgba(218, 215, 215, 0.59);
+}
+
+button[type="submit"] {
+  padding: 15px 20px;
+  background-color: rgba(129, 59, 143, 0.89);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+}
